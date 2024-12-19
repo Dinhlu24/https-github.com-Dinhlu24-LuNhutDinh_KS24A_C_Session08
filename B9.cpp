@@ -8,7 +8,7 @@ int main(){
 		cnt[a[i]]++;
 	}
 	
-	int dem = 0, res;
+	int dem = 0, res=-1;
 	for(int i=0;i<8;i++){
 		if(cnt[a[i]]>dem){
 			dem = cnt[a[i]];
