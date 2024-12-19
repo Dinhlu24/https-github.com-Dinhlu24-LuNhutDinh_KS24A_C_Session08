@@ -8,7 +8,7 @@ int main(){
 		cnt[a[i]]++;
 	}
 	
-	int dem = 0, res;
+	int dem = 0, res=-1;
 	printf("Cac phan tu xuat hien nhieu nhat trong mang nay: ");
 	for(int i=0;i<8;i++){
 		if(cnt[a[i]]>dem){
