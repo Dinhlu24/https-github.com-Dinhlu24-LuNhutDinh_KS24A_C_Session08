@@ -2,12 +2,11 @@
 
 int main(){
 	int n;	printf("Moi nhap vao so nguyen N: ");	scanf("%d", &n);
-	int a[6][6];
+	int a[n][n];
 	
-	for(int i=0;i<6;i++){
-		for(int j=0;j<6;j++){
-			if(i == 0 || j == 0 || i == 5 || j == 5)	printf("%d ",n);
-			else	printf("  ");
+	for(int i=0;i<n;i++){
+		for(int j=0;j<n;j++){
+			printf("%d ",n);
 		}
 		printf("\n");
 	}
