@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main(){
-	int sum;
+	int sum=0;
 	int a[3][3] = {
 		{1,2,3},
 		{4,5,6},
